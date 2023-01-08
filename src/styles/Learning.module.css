@@ -1,0 +1,64 @@
+.container {
+  margin-top: 10rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: var(--secondary);
+  color: black;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  border-radius: 2rem;
+  border-color: blue;
+  border-width: 10px;
+  gap: 5rem;
+  padding: 3rem;
+}
+.text {
+  color: rgb(43, 41, 41);
+  padding-top: 5rem;
+  font-size: 1.5rem;
+  padding-right: 2rem;
+}
+.img_class {
+  border-radius: 20%;
+}
+.github_div {
+  align-items: center;
+  text-align: center;
+  padding-left: 10%;
+  display: flex;
+  gap: 1.25rem;
+  font-size: 1.25rem;
+}
+.buttons {
+  background-color: var(--primary);
+  border-radius: 2rem;
+  height: 4rem;
+  width: 80%;
+  margin-right: 5rem;
+  margin-left: 10%;
+}
+.buttons_hash {
+  background-color: var(--primary);
+  border-radius: 2rem;
+  height: 4rem;
+  width: 50%;
+  margin-right: 5rem;
+  margin-left: 10%;
+}
+.buttons_you {
+  background-color: var(--primary);
+  border-radius: 2rem;
+  height: 4rem;
+  width: 40%;
+  margin-right: 5rem;
+  margin-left: 20%;
+}
+.buttons_auth {
+  background-color: var(--primary);
+  border-radius: 2rem;
+  height: 4rem;
+  width: 35%;
+  margin-right: 5rem;
+  margin-left: 20%;
+}

@@ -1,0 +1,15 @@
+.container {
+  margin-top: 10rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #8ee4e5;
+  color: black;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  border-radius: 2rem;
+  border-color: blue;
+  border-width: 10px;
+  gap: 1rem;
+  padding: 3rem;
+}

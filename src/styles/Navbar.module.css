@@ -1,0 +1,174 @@
+.navBar {
+  display: flex;
+  width: 100%;
+  height: 5rem;
+  background-color: var(--third);
+  padding: 1.5%;
+  vertical-align: baseline;
+  position: sticky;
+  top: 0;
+  transition: top 0.5s ease;
+  z-index: 1000;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+.navBar p {
+  justify-self: flex-start;
+  width: 50%;
+  color: var(--primary);
+  font-family: var(--codeFont);
+}
+
+.navBar ul {
+  justify-self: flex-end;
+}
+
+.navBar li {
+  display: inline;
+  padding: 1.5rem;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.navBar a:hover {
+  color: var(--primary);
+}
+
+.hover_underline_animation {
+  display: inline-block;
+  position: relative;
+  color: var(--secondary);
+  padding-bottom: 1%;
+}
+
+.hover_underline_animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--primary);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  color: var(--primary);
+}
+
+.hover_underline_animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.sideNav {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  height: 100vh;
+  width: 0%;
+  background-color: var(--third);
+  text-align: center;
+  transition: width 0.5s ease;
+  z-index: 100;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+.sideNav ul {
+  justify-self: flex-end;
+}
+
+.sideNav li {
+  display: inline;
+  padding: 2rem;
+}
+
+.mobileNavbar a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.sideNav a:hover {
+  color: var(--primary);
+}
+
+.menu {
+  transition: all 0.5s ease;
+}
+
+.openButton {
+  position: fixed;
+  display: none;
+
+  text-align: center;
+
+  background-color: var(--fourth);
+  z-index: 100;
+}
+.profile_pic {
+  width: 25%;
+  padding-top: 1.5%;
+  border-radius: 100%;
+}
+
+@media (max-width: 1378px) {
+  .navBar p {
+    width: 45%;
+  }
+}
+
+@media (max-width: 1253px) {
+  .navBar p {
+    width: 35%;
+  }
+}
+
+@media (max-width: 1068px) {
+  .navBar li {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .navBar {
+    display: none;
+  }
+
+  .closeButton {
+    display: flex;
+    justify-content: flex-end;
+    width: 95%;
+    font-size: 2rem;
+    color: var(--text);
+    /* padding-left: 1.5rem; */
+  }
+
+  .sideNav li {
+    display: block;
+  }
+
+  .menu {
+    opacity: 0;
+  }
+
+  .sideNav {
+    display: flex;
+    font-size: 2rem;
+  }
+
+  .openButton {
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    font-size: 2rem;
+    color: var(--text);
+    padding-right: 1.5rem;
+  }
+}

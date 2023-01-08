@@ -1,0 +1,9 @@
+export { default as Name } from "./Name";
+export { default as Navbar } from "./Navbar";
+export { default as ShortDesc } from "./ShortDesc";
+export { default as Community } from "./Community";
+export { default as OpenSource } from "./OpenSource";
+export { default as Guidance } from "./Guidance";
+export { default as Profile } from "./Profile";
+export { default as Learning } from "./Learning";
+export { default as Hackathons } from "./Hackathons";

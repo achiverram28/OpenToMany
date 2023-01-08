@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@400;700&family=Roboto:wght@300;400&family=Source+Code+Pro:wght@500&display=swap");
+:root {
+  --background: #000;
+  --primary: #66fcf1;
+  --secondary: #45a29e;
+  --third: #1f2833c4;
+  --fourth: #0b0c10;
+  --fourthUp: #13151d;
+  --text: #c5c6c7;
+  --white: #fff;
+  --headFont: "Poppins", sans-serif;
+  --bodyFont: "Lato", sans-serif;
+  --bodyFont2: "Roboto", sans-serif;
+  --codeFont: "Source Code Pro", monospace;
+}
+
+html,
+body {
+  font-family: var(--bodyFont);
+  background-color: var(--fourth);
+  color: var(--text);
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary);
+}

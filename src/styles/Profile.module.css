@@ -1,0 +1,38 @@
+.container {
+  margin-top: 10rem;
+  align-items: center;
+  justify-content: center;
+  border-color: black;
+  background-color: var(--secondary);
+  color: black;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  border-radius: 2rem;
+  border-color: blue;
+  border-width: 10px;
+  gap: 5rem;
+  padding: 3rem;
+}
+.text {
+  font-size: 2.5rem;
+  color: white;
+  padding-right: 2rem;
+  text-align: center;
+  line-height: 5rem;
+}
+.profile_pic {
+  margin-top: 5%;
+  border-radius: 100%;
+  margin-left: 40%;
+  width: 20%;
+}
+.buttons {
+  font-size: 2rem;
+  text-align: center;
+  align-items: center;
+  margin-left: 18rem;
+  background-color: var(--primary);
+  border-radius: 2rem;
+  height: 4rem;
+  width: 50%;
+}
