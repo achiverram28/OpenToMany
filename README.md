@@ -1,4 +1,12 @@
 # OpenToMany
+This is a website built to foster Open Source Community . It provides a variety of features like Community , Github Organisation , Learning , Hackathon Databases , Partner finder for your Hackathon , mental health stability maintainer during hackathon and the user Profile .
+
+## Tech Stacks 
+
+React JS
+Auth0
+CockRoachDB(in development)
+
 
 <img width="1440" alt="B1EF46E6-C8B3-47E9-B28A-C56DC7BBD519" src="https://user-images.githubusercontent.com/97288756/211178242-b3f3d78c-2549-4c2e-9f0a-00a5bb5d8d95.png">
 
